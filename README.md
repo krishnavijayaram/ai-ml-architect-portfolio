@@ -3,6 +3,10 @@ AI/ML portfolio containing completed projects and curated practice samples acros
 
 Struct
 
+<html>
+<head></head>
+<body>
+<pre>
 ai-ml-architect-portfolio/
 │
 ├── README.md
@@ -29,3 +33,6 @@ ai-ml-architect-portfolio/
     └── design-notes/
     ├── diagrams/
     └── patterns/
+</pre>
+</body>
+</html>
