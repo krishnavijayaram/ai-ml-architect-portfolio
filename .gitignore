@@ -1,0 +1,124 @@
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+
+##################################
+# Virtual Environments
+##################################
+.env
+.venv
+.venvadl/
+venv/
+env/
+ENV/
+
+##################################
+# Jupyter / IPython
+##################################
+.ipynb_checkpoints/
+.profile_default/
+.python-version
+
+##################################
+# Data / Models / Artifacts
+##################################
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+
+##################################
+# Datasets (avoid committing large files)
+##################################
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+
+##################################
+# Logs / Outputs
+##################################
+logs/
+*.log
+*.out
+*.err
+wandb/
+mlruns/
+tensorboard/
+
+##################################
+# Caches
+##################################
+.cache/
+__pypackages__/
+.mypy_cache/
+.ruff_cache/
+
+##################################
+# IDEs / Editors
+##################################
+.vscode/
+.idea/
+*.iml
+
+##################################
+# OS Files
+##################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+##################################
+# Build / Distribution
+##################################
+build/
+dist/
+*.egg-info/
+.eggs/
+
+##################################
+# Testing / Coverage
+##################################
+.coverage
+htmlcov/
+.tox/
+
+##################################
+# Secrets / Credentials
+##################################
+*.env
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+
+##################################
+# Cloud / Tools
+##################################
+.azure/
+.aws/
+.gcp/
+terraform.tfstate*
+.terraform/
+
+##################################
+# Temporary / Scratch
+##################################
+tmp/
+temp/
+scratch/
+notebooks/_tmp/

@@ -1,0 +1,73 @@
+
+Enable the Python Virtural Env
+=========================================
+Create the Virtual Env
+> python3 -m venv .venv
+
+Point to the Virtual Env>
+
+select from above drop down  
+or to activate 
+>.venv\Scripts\activate  
+
+
+===========================
+
+Created Main.python3
+Run the python to print the statement
+
+=====================================
+
+Chat Model in LangChain is a component desined to communicate designed to communicate in a strucuted way with LLMs
+
+https://docs.langchain.com/oss/python/integrations/chat
+
+langchain-openai > For connecting with openai
+
+Why do we need langchain Chat models?
+To connect to LLMs mainly
+
+1. Consistent workflow:
+Langchain chat models unify different APIS saving you from managing each ones unique setup and quirks
+2. Easy switching between LLms
+Want to switch from one LLM to another ? Langchains chat models make it simple without code rewrites.
+3. Context Management
+ Working with this help manage conversation history, letting you keep context across multiple interactions seamlessly.
+ 4. Efficient Chaining
+  You can connect multiple LLm calls and task in one structured pipeline, Which is tricky to set up manually.
+5. Scallability
+ As project grow, Langchain interace supports more complex workflwo, letting you focus on feature not API management.
+
+
+
+ CREATE .env file at root
+
+
+OPENAI_API_KEY= <Api key>
+
+===============
+
+We need to provide access to key using below package
+
+>pip install python-dotenv
+
+=============================
+
+For gemini 
+pip install google-genai
+
+
+=========================================
+2. Conversation model
+
+# 1. SystemMessage: Defines the role and sets the context of the conversation
+    eg: "You are a marketing expert"
+# 2. HumanMessage: Represents users input or questions directed to the AI
+    eg: "What's a good marketing stratergy"?
+# 3. AIMessage: Contains the AI's responses baon previous messages
+    eg: "Focus on social media engagement "
+
+
+>pip install langchain-core        
+> pip install langchain-google-genai
+    
