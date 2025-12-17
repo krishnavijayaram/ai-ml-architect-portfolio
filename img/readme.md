@@ -1,0 +1,1 @@
+This folder is to host images that may be reference in notebooks. As a general purpose public hosting url
